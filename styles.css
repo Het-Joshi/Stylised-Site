@@ -1,0 +1,314 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 10 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #F24A72;
+  line-height: 1.6;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #F24A72;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.top_container {
+  position: relative;
+
+}
+.top_container {
+
+}
+
+.bottom-container{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.bottom-cloud{
+  position:absolute ;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.photography{
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 130px;
+  margin-bottom: 10px;
+}
+
+.web-dev{
+  border-radius: 50%;
+  width: 350px;
+  height: 250px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 150px;
+  margin-top: 200px;
+}
+
+.programming-lang{
+  font-family: 'courier new', monospace;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  font-size: 150%;
+
+}
+
+.footer-link{
+  color: hotpink;
+}
+
+.footer-link:visited{
+  color: black;
+}
+
+.footer-link:hover{
+  color: #9900F0;
+}
+
+.btn {
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #6e6e6e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #506673;
+  background-image: -webkit-linear-gradient(top, #506673, #393f42);
+  background-image: -moz-linear-gradient(top, #506673, #393f42);
+  background-image: -ms-linear-gradient(top, #506673, #393f42);
+  background-image: -o-linear-gradient(top, #506673, #393f42);
+  background-image: linear-gradient(to bottom, #506673, #393f42);
+  text-decoration: none;
+}
+
+.bio{
+  size: 2.5rem;
+}
+
+a{
+  margin: 15px auto;
+}
+
+.skill-row{
+  width: 80%;
+  margin: 100px auto 0px auto;
+  text-align: left;
+}
+
+.web-dev{
+  /**margin: auto auto 100px auto;**/
+}
+
+p{
+  line-height: 1.6;
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+}
+.photo-description{
+
+}
+
+.profile {
+    background: linear-gradient(270deg, #5edbe8, #dfb39f, #bfe6d4);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    -o-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+.intro{
+  margin-bottom: 0px;
+}
+hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 5px;
+}
+.skills{
+    background: linear-gradient(270deg, #c5acf7, #a1cfee);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    -o-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+hr{
+    background: linear-gradient(270deg, #c5c0ce, #252729);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    -o-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+#one{
+  margin-top: 0px;
+}
+.top_container{}
+
+.contact-me{
+  padding-bottom: 20px;
+}
+.contact-me{
+    background: linear-gradient(270deg, #ffffff, #b4b4b4);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.bottom-container{
+    background: linear-gradient(270deg, #ffffff, #b4b4b4);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#two{
+  margin-top: 0px;
+}
+#uno{
+  margin-bottom: 0px;
+}
+.backdrop{
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+.skills{
+  padding-top: 20px;
+}
+div{
+  padding-top: 20px;
+}
+.profile{
+  padding-bottom: 15px;
+}
